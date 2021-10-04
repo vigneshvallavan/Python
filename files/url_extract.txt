@@ -1,0 +1,3 @@
+https://en.wikipedia.org/wiki/Python_(programming_language)
+https://www.python.org/doc/essays/blurb/
+https://docs.python.org/3/howto/regex.html
