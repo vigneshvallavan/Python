@@ -13,7 +13,7 @@ nltk.download('punkt')
 
 stemmer = LancasterStemmer()
 
-with open("intents.json") as file:
+with open("C:\\Users\\US\\Desktop\\Python Programming\\Chatbot\\intents.json") as file:
     data = json.load(file)
 
 try:
