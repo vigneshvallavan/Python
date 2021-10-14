@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>   
+        <title>AI ChatBot</title>
+        <style>
+            body {
+                text-align: center;
+                padding: 5%;
+            }
+            h1{
+                color: coral;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Hi! I am a AI ChatBot</h1>             
+        <div id = 'userInput'>
+            <form action = "{{ url_for("get_response")}}" method = "post">
+            <input id = 'textInput' type="text" name='msg' placeholder="Message">
+            <a href = get_response>
+                <input id = 'buttonInput' type = "submit" value = "Send" >
+            </a>
+        </div>         
+    </body>
+</html>
