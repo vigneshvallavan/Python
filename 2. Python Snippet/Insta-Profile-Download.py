@@ -27,6 +27,7 @@ def download():
     print(Insta_UserName)
 
     DP = r.download_profile(Insta_UserName, profile_pic_only = True) 
+    print(DP)
 
 
 tk.Button(root, text = 'Download Profile Picture', font = 'Algerian 13 ', command = lambda:download(), pady = 8, bg = 'royal blue', fg = 'yellow').place( x= 230, y = 110)
